@@ -15,7 +15,18 @@ return {
     name = "catppuccin",
     priority = 1000,
     opts = {
-      flavour = "mocha"
+      flavour = "mocha",
+      integrations = {
+        native_lsp = {
+          enabled = true,
+          underlines = {
+            errors = { "undercurl" },
+            hints = { "undercurl" },
+            warnings = { "undercurl" },
+            information = { "undercurl" },
+          },
+      }
+      } 
     }
   }
 }

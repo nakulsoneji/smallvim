@@ -8,6 +8,8 @@ vim.opt.backspace = "indent,start,eol"
 vim.opt.pumheight = 10
 vim.opt.clipboard:append("unnamedplus")
 vim.opt.laststatus = 3
+-- fix weird indent on colons
+vim.opt.indentkeys = "0{,0},0#,!^F,o,O,e"
 
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3

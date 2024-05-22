@@ -97,7 +97,7 @@ return {
       },
       {
         "<leader>fg",
-        "<cmd>Pick live_grep<cr>",
+        "<cmd>Pick grep_live<cr>",
         desc = "Grep",
       },
     },

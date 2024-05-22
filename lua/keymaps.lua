@@ -11,6 +11,7 @@ map("n", "<S-h>", "<cmd>bprevious<cr>")
 map("n", "<S-l>", "<cmd>bnext<cr>")
 map("n", "[b", "<cmd>bprevious<cr>")
 map("n", "]b", "<cmd>bnext<cr>")
+map("n", "<leader>bd", "<cmd>bd<cr>")
 
 -- netrw
 map("n", "<space>e", "<cmd>Lex<cr>")

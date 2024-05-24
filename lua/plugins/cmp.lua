@@ -73,7 +73,10 @@ return {
           end,
         },
         performance = {
-          max_item_entries = vim.o.pumheight
+          max_view_entries = 2 * vim.o.pumheight
+        },
+        experimental = {
+          ghost_text = true,
         },
         sorting = defaults.sorting,
       }

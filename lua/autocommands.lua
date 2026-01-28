@@ -1,0 +1,4 @@
+-- reset cursor back to terminal cursor (pipe)
+-- usually, exiting neovim will result in the cursor changing to a block
+-- this does not happen in terminals like kitty
+-- vim.cmd([[au VimLeave * set guicursor=a:ver10]])
